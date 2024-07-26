@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(252, 255, 65);
+  background: linear-gradient(rgba(0, 185, 25, 0.8), rgba(18, 181, 40, 0.8)),
+    url("pngtree-abstract-technology-background-technical-electric-image_443494.jpg");
 }
 header {
   width: 100%;
@@ -25,7 +26,7 @@ nav {
 .logo {
   font-size: 2.5em;
   letter-spacing: 2px;
-  color: rgb(17, 115, 228);
+  color: rgb(255, 255, 255);
 }
 .content {
   display: flex;
@@ -74,5 +75,17 @@ nav {
 }
 .contact a:hover {
   background-color: transparent;
-  border: 1px solid greenyellow;
+  border: 0px solid greenyellow;
+}
+.h1-text {
+  font-size: 5em;
+  text-align: center;
+}
+.h2-text {
+  font-size: 4em;
+  text-align: center;
+}
+.bio {
+  font-size: 3em;
+  text-align: center;
 }
